@@ -1,0 +1,1183 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02D429097B31EBEB8FDC3E7CE087AB1A /* OCSStatementExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CDCD43B4671557A3C0C6E7A07C7EA7 /* OCSStatementExecutor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		078AD57FCE9755AA700EDDDDFE34BEFF /* OCSPTestSuite.m in Sources */ = {isa = PBXBuildFile; fileRef = 089D608F5BA8886AA998585923BB0C0B /* OCSPTestSuite.m */; };
+		09824081DE84BA6C12356240DFB391A2 /* SocketServer.c in Sources */ = {isa = PBXBuildFile; fileRef = A25F5213B602A8FF3F5C37EEC00AE633 /* SocketServer.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0A405F2498ADA18F43B716FEE603FF41 /* SlimList.c in Sources */ = {isa = PBXBuildFile; fileRef = C1CAB4F2E640031893FCE33E2A714D61 /* SlimList.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0BE45CE55CB81D4712740D59B56E31C7 /* OCSSymbolDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = A3821EC09992AABF086511BEF63C3997 /* OCSSymbolDictionary.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0F3844BA637633189174ED2871A7D4A9 /* OCSPTestDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B77E56C8D5679A4C846424A645D222 /* OCSPTestDataManager.m */; };
+		12679DF075D11B88B67F2952AC1E1D18 /* OCSPPrincipalTestObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 793D53643DB52A30518C9884ED2D3E04 /* OCSPPrincipalTestObserver.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		15943268904B0C613B45556381B80266 /* OCSPLocalizedMessageTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DECEC43EE2E989981FADF47255F660A /* OCSPLocalizedMessageTable.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1AF797586290A9A508FE0A138921AB49 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B89BF7315BAB3516AF2A51041DC39C3B /* XCTest.framework */; };
+		1FDF45FE2436F7E8B2A3E8C9B504E992 /* SlimUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 109F0D128FF3773BC2355EE49CDD5275 /* SlimUtil.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		27952AE0BABE796C6AD24017667B5D63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC405455F8E20BD0434D9D3E3D2879A /* Foundation.framework */; };
+		36DA2F913F209660285B961F8627C06F /* SlimListDeserializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 90A6ADC3AF9670B6A3D9F2413D20E88B /* SlimListDeserializer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		373BDC50647066D953B063FE7C107509 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC405455F8E20BD0434D9D3E3D2879A /* Foundation.framework */; };
+		39F139F0BEF651888A7B1F7FBA2B425A /* OCSSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = 440811055DEA5C61632393E3070DFD66 /* OCSSelector.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3BBA802A7AA5C037F96057DD05FF347F /* SlimConnectionHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DC41F47FA84AA4751B09B2A59C3EAA1 /* SlimConnectionHandler.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3CF4A128C6548E03B7D2A96B11BC07DA /* OCSPTestCaseReport.h in Headers */ = {isa = PBXBuildFile; fileRef = F83D7A7378E6F1A48CF28C7FDC917BA1 /* OCSPTestCaseReport.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3E5CCEB019AD2CAE4DEF8CC7E7234CD8 /* OCSPTestReportReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AC73EF94D53351108C8355957B94A3F /* OCSPTestReportReader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3F1AB4D03F387C090188CAA90D167CA7 /* OCSPJUnitXMLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = E5498AEF73B7C0F2E78AA71060EDCD6D /* OCSPJUnitXMLParser.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		43B4F637926270257CE97E7C765A9A38 /* OCSPAssertRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9BD5B5D8484F5530A66CE888B510CA /* OCSPAssertRecorder.m */; };
+		44CFCA83A504E1AA69987E50319FA06B /* OCSPTestReportCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 40407FF6043F1607A31D107997B1085A /* OCSPTestReportCenter.m */; };
+		45551F8075A77DF92A6D396F70C73FA7 /* OCSException.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FBC68949BE50DDE3FB1481A2CE99500 /* OCSException.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		45D4A82B4C7F77F5A6CAC3C3B4A1AA80 /* TcpComLink.h in Headers */ = {isa = PBXBuildFile; fileRef = A22D1EC81216D3240DF5EA4E3C90F72C /* TcpComLink.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		46ED5CAC8A97E76D8C0A7A52320943F6 /* Slim.c in Sources */ = {isa = PBXBuildFile; fileRef = 168E69FE8A23E8514ABDD802E2514127 /* Slim.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4C81FD3C81ECB6847CDA1825F630ADE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC405455F8E20BD0434D9D3E3D2879A /* Foundation.framework */; };
+		56010DB3DDBA3C9A7D4CE7F4E52289E1 /* OCSSymbolDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EE38D472F51D87BD44A9BD30417282C /* OCSSymbolDictionary.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		586D5653DC1F7D6577A582CC478539BC /* SlimListDeserializer.c in Sources */ = {isa = PBXBuildFile; fileRef = 58A9E12E3892FB6D0E99FE29C0DC94FA /* SlimListDeserializer.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5B1322C7ADDA985E5C1E1D43912D6DE4 /* Pods-XCFitnesse-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A20A04534610B1A8BB0C11C771CA1924 /* Pods-XCFitnesse-dummy.m */; };
+		62CCBD20055E6628DC85A0A34D06C24B /* OCSMethodCaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A3B45F46B132099B957EA46A56FC793 /* OCSMethodCaller.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		63E84BBFBB9FD8243C9AC8CA7C66E7B9 /* OCSPPrincipalTestObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 4839AC8A7D6ADBA1EC280DDD585E61EC /* OCSPPrincipalTestObserver.m */; };
+		6A43DC95886D8168998B001F942DF5A4 /* Pods-XCFitnesse-AcceptanceTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 989F1584BF57ED333B29E9AF5420BE59 /* Pods-XCFitnesse-AcceptanceTest-dummy.m */; };
+		6AB68E639866A92EF16CFB28AD23617E /* OCSInstanceCreator.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FC7751F53BA823FDF3662F3916E8B96 /* OCSInstanceCreator.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		71AB97947F7054502CC865E4AA9B5F55 /* StatementExecutor.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EF32930369540E6626866AD14FDE81A /* StatementExecutor.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		787812A77C175E0F2B2AB1360DC4B86F /* OCSlimToObjectiveCBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 358E96227AA4D3CD71D0A9919D76BA6A /* OCSlimToObjectiveCBridge.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		881BB83FDDDE55416F9BCCD0B20AF04A /* OCSPTestReportCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 65875E9AD7F816BF1723992F3795A558 /* OCSPTestReportCenter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8F4A1EDFD3953096C13A7DF046E15FFA /* SlimConnectionHandler.c in Sources */ = {isa = PBXBuildFile; fileRef = 27EEACFA1D5D14D2F520CF3ED2E115E7 /* SlimConnectionHandler.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		90FFCB95383075B33AE04425948E6936 /* SlimListSerializer.c in Sources */ = {isa = PBXBuildFile; fileRef = 81E9F87999F491477AD03733B38B60BF /* SlimListSerializer.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		971C801BDA53AB58E4AB9305054E5313 /* Main.c in Sources */ = {isa = PBXBuildFile; fileRef = C2AC3A0C279DA211BAF548A405D78D61 /* Main.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		973EFF9F619A8E8F0A823CC392457B75 /* OCSPAssertRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = E20A710496AAA983D11876E26A829516 /* OCSPAssertRecorder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9C3B616402E3CB13878875F1A9AD06FB /* OCSPLocalizedMessageTable.m in Sources */ = {isa = PBXBuildFile; fileRef = A642F01F4FBB9E507230F8184EA61998 /* OCSPLocalizedMessageTable.m */; };
+		9E5E0E4C276BAE5C2EE5856C0A50189D /* ListExecutor.h in Headers */ = {isa = PBXBuildFile; fileRef = A9E3973144F57D7DEEE8F960E295A76B /* ListExecutor.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9FF92D02EEA6576C14281D7587B90356 /* OCSObjectiveCtoCBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = AA373B1A3927A5079411BD707B257D2F /* OCSObjectiveCtoCBridge.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A18FE7337A0165AAD2287213050DE42A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC405455F8E20BD0434D9D3E3D2879A /* Foundation.framework */; };
+		A25FE0B0351D14BDAE988200701584BD /* OCSReturnValue.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0E011C66C021AFFB2306878F236CE8 /* OCSReturnValue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A9FE2F7EC3081D280E94D376FB8A5BFC /* OCSPJUnitXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E3E9BA2AB5067748C4382B22B28283 /* OCSPJUnitXMLParser.m */; };
+		ABD06C9FC917D052ED72DE39688657AF /* OCSPTestReportReader.m in Sources */ = {isa = PBXBuildFile; fileRef = F0613B79BF522E523F58C831A159A7BD /* OCSPTestReportReader.m */; };
+		ACE9DEC7D975628A2A779AA824EBEA3C /* OCSObjectiveCtoCBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEBBB276D38FF401006D9EB08FFB4BA /* OCSObjectiveCtoCBridge.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AD22BE1735078C1BB9939F38D642D21B /* Slim.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F5FCC4110F82903C56F8472B6C3B32C /* Slim.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		AD612BA0267D28BCBD0D5B05A04578C1 /* OCSPTestDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F92330CBFC6B23DCE37CEFCBF62FEB0 /* OCSPTestDataManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B3FD2D09D1F2B32DE72E4DA695E0D840 /* Fixtures.h in Headers */ = {isa = PBXBuildFile; fileRef = 23C9E5055CD1A0A91F6037BEDDD3B833 /* Fixtures.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B9CC617142AFBFC82A96DDC148F7C3FA /* SlimList.h in Headers */ = {isa = PBXBuildFile; fileRef = DDF30E08A2F8957D0EA2394556A8B79C /* SlimList.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		BA48567321F0A144890D2EFB20270562 /* StatementExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = 88142B51BD3BFF210CF746FF11A5231F /* StatementExecutor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BA53B488C0922672444A42A3582D7DD0 /* OCSStatementExecutor.h in Headers */ = {isa = PBXBuildFile; fileRef = B4C0D378198C095CBAA237EA4AD771E9 /* OCSStatementExecutor.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		C885F4EE4AE5B43AFF3598F12E5CED43 /* Fixtures.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7AF29D5BC8F14DD00EE05499931E93 /* Fixtures.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C992C867A61EE370C69900DD791DD45D /* Pods-XCFitnesse-AcceptanceUnitTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6624A521D192A4064A7319696F7F871 /* Pods-XCFitnesse-AcceptanceUnitTests-dummy.m */; };
+		CD15526A6A61F2858CF0B58FF53FCAA5 /* OCSInstanceCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D441209B8CF42A606BBBB42E071922 /* OCSInstanceCreator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CDE3735655C6E303414CE1335C37D45B /* SlimUtil.c in Sources */ = {isa = PBXBuildFile; fileRef = 2D622235FE5A1E4599E7B0F5EEBD1876 /* SlimUtil.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CF58C15E6F9BF53B4E0E886043FCC708 /* OCSlimToObjectiveCBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 20BC256A25B780055E45A9AAD12E0D7D /* OCSlimToObjectiveCBridge.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DA90F95D48368216E5517C3A3B9C2BF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC405455F8E20BD0434D9D3E3D2879A /* Foundation.framework */; };
+		DB6E666D6686FEC0723D5E4C56B379C0 /* OCSException.m in Sources */ = {isa = PBXBuildFile; fileRef = F0EE5D393362C39C1AA28EEEA7CC5FF3 /* OCSException.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DD84290086F0965891D1547C19646FA3 /* TcpComLink.c in Sources */ = {isa = PBXBuildFile; fileRef = CDB9BC1DA4E0DD6BC498BF3FDBD4E658 /* TcpComLink.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DFF87DD97BC6A807FFD71303E00000B8 /* SocketServer.h in Headers */ = {isa = PBXBuildFile; fileRef = EB5CD02C304DBC756621B68CA9160D28 /* SocketServer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		E061B0AA34E1DA0E15EF8356E3C9BEF8 /* SlimListSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = C8DED42BC7B495B332ED54FE3FE296ED /* SlimListSerializer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		E1DC8EC0F83FC842971359A0BE372B8A /* OCSPTestSuite.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D760A62177FA20A91D50D91AB80657A /* OCSPTestSuite.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E79F1C70FC63D6831FC8F5F7D97F2D5A /* OCSInvocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EF49D06356AD2BF50E91698B1E0CD65 /* OCSInvocation.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		E85738801B4A6C2017F52E7F7B7973C3 /* OCSPTestCaseReport.m in Sources */ = {isa = PBXBuildFile; fileRef = 015DF95F9878A019815EDB6C30A26292 /* OCSPTestCaseReport.m */; };
+		EDA8775CFF6CAF2A85EB32532B718056 /* OCSReturnValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BF81529CDC264923B68800780D55474 /* OCSReturnValue.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F256A2862A74834623F4F9DB0651DC3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC405455F8E20BD0434D9D3E3D2879A /* Foundation.framework */; };
+		F4401358B20E88F6D3904E6CB3317589 /* OCSMethodCaller.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD076C142805094C12317055198C516 /* OCSMethodCaller.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F44F71C8BEA7EC9442C3130B3D9CCF32 /* OCSlimProjectTestBundleSupport-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B3C031BCF6B0BEA0DB45D70E1609BB /* OCSlimProjectTestBundleSupport-dummy.m */; };
+		F79C8776B4827B1F23669C355F87C812 /* ListExecutor.c in Sources */ = {isa = PBXBuildFile; fileRef = 2E9F300654CD5710EF317689199EB84A /* ListExecutor.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F7D8D4C1D45B2E4147C1274F59A6A399 /* OCSInvocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FCC62589E1147A9329A9B602C5D821 /* OCSInvocation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F9338C19503D076DC5F16CEA1ACCD14A /* cslim-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5302C22E69300EDFC15D9FCB6D10F4C0 /* cslim-dummy.m */; };
+		F9E4E5DD15A6BA43B618BEB6E148781A /* OCSSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC7D7AF1A0DE5D27A26A69113C05B32 /* OCSSelector.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FFD2ECF687F1024E446ED4E59C1294D8 /* Pods-XCFitnesseTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D245D96436CBF06CF678EE66D4721F07 /* Pods-XCFitnesseTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71CC43A0263C09763FB487966436A8A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB1889F79616BF0DC8410A2CAB0048DC;
+			remoteInfo = OCSlimProjectTestBundleSupport;
+		};
+		AB1402179584926CBF2E17D4822C53BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 322E01C77ED63E8606FEC5F22B0E3A2F;
+			remoteInfo = cslim;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		015DF95F9878A019815EDB6C30A26292 /* OCSPTestCaseReport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCSPTestCaseReport.m; path = Pod/TestClasses/OCSPTestCaseReport.m; sourceTree = "<group>"; };
+		07922B02E95FE9D5647619D12004F5F8 /* OCSlimProjectTestBundleSupport.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OCSlimProjectTestBundleSupport.xcconfig; sourceTree = "<group>"; };
+		089D608F5BA8886AA998585923BB0C0B /* OCSPTestSuite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCSPTestSuite.m; path = Pod/TestClasses/OCSPTestSuite.m; sourceTree = "<group>"; };
+		0DA355CD2CB38CA5971FC61AC58D2E13 /* Pods-XCFitnesse-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XCFitnesse-frameworks.sh"; sourceTree = "<group>"; };
+		109F0D128FF3773BC2355EE49CDD5275 /* SlimUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SlimUtil.h; path = include/CSlim/SlimUtil.h; sourceTree = "<group>"; };
+		14CDCD43B4671557A3C0C6E7A07C7EA7 /* OCSStatementExecutor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCSStatementExecutor.m; path = src/ExecutorObjectiveC/OCSStatementExecutor.m; sourceTree = "<group>"; };
+		168E69FE8A23E8514ABDD802E2514127 /* Slim.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = Slim.c; path = src/CSlim/Slim.c; sourceTree = "<group>"; };
+		16D4E385D5699C6B57AE7E1D07E56A0F /* libPods-XCFitnesseTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XCFitnesseTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B75744427A0D5BF0647BFDE1F615D46 /* Pods-XCFitnesse-AcceptanceTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XCFitnesse-AcceptanceTest.release.xcconfig"; sourceTree = "<group>"; };
+		1DD928D198BB0AE6AF90FC0C99ECE306 /* Pods-XCFitnesse-AcceptanceUnitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XCFitnesse-AcceptanceUnitTests.release.xcconfig"; sourceTree = "<group>"; };
+		1F5FCC4110F82903C56F8472B6C3B32C /* Slim.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Slim.h; path = include/CSlim/Slim.h; sourceTree = "<group>"; };
+		208237DB644CA3CE9361F710DB10EC26 /* Pods-XCFitnesse-AcceptanceTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XCFitnesse-AcceptanceTest-frameworks.sh"; sourceTree = "<group>"; };
+		20BC256A25B780055E45A9AAD12E0D7D /* OCSlimToObjectiveCBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCSlimToObjectiveCBridge.m; path = src/ExecutorObjectiveC/OCSlimToObjectiveCBridge.m; sourceTree = "<group>"; };
+		22C29C00C8E62AA4801C7F169096B7E8 /* Pods-XCFitnesse-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XCFitnesse-acknowledgements.plist"; sourceTree = "<group>"; };
+		23C9E5055CD1A0A91F6037BEDDD3B833 /* Fixtures.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Fixtures.h; path = include/CSlim/Fixtures.h; sourceTree = "<group>"; };
+		27EEACFA1D5D14D2F520CF3ED2E115E7 /* SlimConnectionHandler.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = SlimConnectionHandler.c; path = src/CSlim/SlimConnectionHandler.c; sourceTree = "<group>"; };
+		2D622235FE5A1E4599E7B0F5EEBD1876 /* SlimUtil.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = SlimUtil.c; path = src/CSlim/SlimUtil.c; sourceTree = "<group>"; };
+		2DEBBB276D38FF401006D9EB08FFB4BA /* OCSObjectiveCtoCBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCSObjectiveCtoCBridge.m; path = src/ExecutorObjectiveC/OCSObjectiveCtoCBridge.m; sourceTree = "<group>"; };
+		2E9F300654CD5710EF317689199EB84A /* ListExecutor.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = ListExecutor.c; path = src/CSlim/ListExecutor.c; sourceTree = "<group>"; };
+		2F57B45D9BB4E442C27A9FEBCE64487D /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = en.lproj; path = Pod/Resources/en.lproj; sourceTree = "<group>"; };
+		350CA87282378CA2223D2673D66E2A16 /* libOCSlimProjectTestBundleSupport.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libOCSlimProjectTestBundleSupport.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		358E96227AA4D3CD71D0A9919D76BA6A /* OCSlimToObjectiveCBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCSlimToObjectiveCBridge.h; path = include/ExecutorObjectiveC/OCSlimToObjectiveCBridge.h; sourceTree = "<group>"; };
+		3DC41F47FA84AA4751B09B2A59C3EAA1 /* SlimConnectionHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SlimConnectionHandler.h; path = include/CSlim/SlimConnectionHandler.h; sourceTree = "<group>"; };
+		40407FF6043F1607A31D107997B1085A /* OCSPTestReportCenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCSPTestReportCenter.m; path = Pod/TestClasses/OCSPTestReportCenter.m; sourceTree = "<group>"; };
+		440811055DEA5C61632393E3070DFD66 /* OCSSelector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCSSelector.h; path = include/ExecutorObjectiveC/OCSSelector.h; sourceTree = "<group>"; };
+		445D0B3CD9095A09EB8BC0BED93F53F2 /* libPods-XCFitnesse-AcceptanceTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XCFitnesse-AcceptanceTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4540AD27C4284A6546BEF1C872EBA358 /* Pods-XCFitnesse-AcceptanceTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XCFitnesse-AcceptanceTest-acknowledgements.plist"; sourceTree = "<group>"; };
+		46B3C031BCF6B0BEA0DB45D70E1609BB /* OCSlimProjectTestBundleSupport-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OCSlimProjectTestBundleSupport-dummy.m"; sourceTree = "<group>"; };
+		47B77E56C8D5679A4C846424A645D222 /* OCSPTestDataManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCSPTestDataManager.m; path = Pod/TestClasses/OCSPTestDataManager.m; sourceTree = "<group>"; };
+		47EB9615DE1DF79587A0F6A475126DA9 /* Pods-XCFitnesse-AcceptanceUnitTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XCFitnesse-AcceptanceUnitTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		47FCC62589E1147A9329A9B602C5D821 /* OCSInvocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCSInvocation.m; path = src/ExecutorObjectiveC/OCSInvocation.m; sourceTree = "<group>"; };
+		4839AC8A7D6ADBA1EC280DDD585E61EC /* OCSPPrincipalTestObserver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCSPPrincipalTestObserver.m; path = Pod/TestClasses/OCSPPrincipalTestObserver.m; sourceTree = "<group>"; };
+		4E994E84D5FD839768AB5DE35D12EDB8 /* Pods-XCFitnesseTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XCFitnesseTests-resources.sh"; sourceTree = "<group>"; };
+		5302C22E69300EDFC15D9FCB6D10F4C0 /* cslim-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "cslim-dummy.m"; sourceTree = "<group>"; };
+		541660E3DBF5072B982FC1C6D02E9370 /* cslim.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = cslim.xcconfig; sourceTree = "<group>"; };
+		58A9E12E3892FB6D0E99FE29C0DC94FA /* SlimListDeserializer.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = SlimListDeserializer.c; path = src/CSlim/SlimListDeserializer.c; sourceTree = "<group>"; };
+		5A3B45F46B132099B957EA46A56FC793 /* OCSMethodCaller.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCSMethodCaller.h; path = include/ExecutorObjectiveC/OCSMethodCaller.h; sourceTree = "<group>"; };
+		5FC7751F53BA823FDF3662F3916E8B96 /* OCSInstanceCreator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCSInstanceCreator.h; path = include/ExecutorObjectiveC/OCSInstanceCreator.h; sourceTree = "<group>"; };
+		65875E9AD7F816BF1723992F3795A558 /* OCSPTestReportCenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCSPTestReportCenter.h; path = Pod/TestClasses/OCSPTestReportCenter.h; sourceTree = "<group>"; };
+		6ADF63830C221D85C7A885BF727265FF /* OCSlimProject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCSlimProject.h; path = Pod/Classes/OCSlimProject.h; sourceTree = "<group>"; };
+		6D7AF29D5BC8F14DD00EE05499931E93 /* Fixtures.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Fixtures.m; path = src/ExecutorObjectiveC/Fixtures.m; sourceTree = "<group>"; };
+		6D8F9CC89A200DBECEE5F2AF225E8E5E /* OCSlimProjectTestBundleSupport-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OCSlimProjectTestBundleSupport-prefix.pch"; sourceTree = "<group>"; };
+		6E9BD5B5D8484F5530A66CE888B510CA /* OCSPAssertRecorder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCSPAssertRecorder.m; path = Pod/TestClasses/OCSPAssertRecorder.m; sourceTree = "<group>"; };
+		6EE38D472F51D87BD44A9BD30417282C /* OCSSymbolDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCSSymbolDictionary.h; path = include/ExecutorObjectiveC/OCSSymbolDictionary.h; sourceTree = "<group>"; };
+		714C43905A9F1BA170BE6CD2418DFBF5 /* libPods-XCFitnesse.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XCFitnesse.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		720B3B1F6F6F639E64A93A5C128344F7 /* libPods-XCFitnesse-AcceptanceUnitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XCFitnesse-AcceptanceUnitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		793D53643DB52A30518C9884ED2D3E04 /* OCSPPrincipalTestObserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCSPPrincipalTestObserver.h; path = Pod/TestClasses/OCSPPrincipalTestObserver.h; sourceTree = "<group>"; };
+		7BBF3C42479E4FBAFA4F8C83F6CA0820 /* Pods-XCFitnesse-AcceptanceUnitTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XCFitnesse-AcceptanceUnitTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7BF81529CDC264923B68800780D55474 /* OCSReturnValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCSReturnValue.h; path = include/ExecutorObjectiveC/OCSReturnValue.h; sourceTree = "<group>"; };
+		81E9F87999F491477AD03733B38B60BF /* SlimListSerializer.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = SlimListSerializer.c; path = src/CSlim/SlimListSerializer.c; sourceTree = "<group>"; };
+		88142B51BD3BFF210CF746FF11A5231F /* StatementExecutor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = StatementExecutor.m; path = src/ExecutorObjectiveC/StatementExecutor.m; sourceTree = "<group>"; };
+		88E3E9BA2AB5067748C4382B22B28283 /* OCSPJUnitXMLParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCSPJUnitXMLParser.m; path = Pod/TestClasses/OCSPJUnitXMLParser.m; sourceTree = "<group>"; };
+		8A011060DE6E62226E90F3BDFE30E9C6 /* Pods-XCFitnesse-AcceptanceTest-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XCFitnesse-AcceptanceTest-resources.sh"; sourceTree = "<group>"; };
+		8D760A62177FA20A91D50D91AB80657A /* OCSPTestSuite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCSPTestSuite.h; path = Pod/TestClasses/OCSPTestSuite.h; sourceTree = "<group>"; };
+		8DECEC43EE2E989981FADF47255F660A /* OCSPLocalizedMessageTable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCSPLocalizedMessageTable.h; path = Pod/TestClasses/OCSPLocalizedMessageTable.h; sourceTree = "<group>"; };
+		8EF32930369540E6626866AD14FDE81A /* StatementExecutor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StatementExecutor.h; path = include/CSlim/StatementExecutor.h; sourceTree = "<group>"; };
+		8EF49D06356AD2BF50E91698B1E0CD65 /* OCSInvocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCSInvocation.h; path = include/ExecutorObjectiveC/OCSInvocation.h; sourceTree = "<group>"; };
+		8FBC68949BE50DDE3FB1481A2CE99500 /* OCSException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCSException.h; path = include/ExecutorObjectiveC/OCSException.h; sourceTree = "<group>"; };
+		90A6ADC3AF9670B6A3D9F2413D20E88B /* SlimListDeserializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SlimListDeserializer.h; path = include/CSlim/SlimListDeserializer.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		960FD9B61765D29936FEC80CE74E241A /* Pods-XCFitnesseTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XCFitnesseTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		989F1584BF57ED333B29E9AF5420BE59 /* Pods-XCFitnesse-AcceptanceTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XCFitnesse-AcceptanceTest-dummy.m"; sourceTree = "<group>"; };
+		9AC73EF94D53351108C8355957B94A3F /* OCSPTestReportReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCSPTestReportReader.h; path = Pod/TestClasses/OCSPTestReportReader.h; sourceTree = "<group>"; };
+		9F92330CBFC6B23DCE37CEFCBF62FEB0 /* OCSPTestDataManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCSPTestDataManager.h; path = Pod/TestClasses/OCSPTestDataManager.h; sourceTree = "<group>"; };
+		9FFE8CC3E6CEA3436DFB73AAAAD17BE1 /* cslim-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "cslim-prefix.pch"; sourceTree = "<group>"; };
+		A20A04534610B1A8BB0C11C771CA1924 /* Pods-XCFitnesse-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XCFitnesse-dummy.m"; sourceTree = "<group>"; };
+		A22046B64DDCFE75621E5B7F97FF0D54 /* Pods-XCFitnesse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XCFitnesse.release.xcconfig"; sourceTree = "<group>"; };
+		A22D1EC81216D3240DF5EA4E3C90F72C /* TcpComLink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TcpComLink.h; path = include/Com/TcpComLink.h; sourceTree = "<group>"; };
+		A25F5213B602A8FF3F5C37EEC00AE633 /* SocketServer.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = SocketServer.c; path = src/Com/SocketServer.c; sourceTree = "<group>"; };
+		A30441C56AA0D8AEB8718348FAF1B244 /* Pods-XCFitnesse-AcceptanceTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XCFitnesse-AcceptanceTest.debug.xcconfig"; sourceTree = "<group>"; };
+		A3821EC09992AABF086511BEF63C3997 /* OCSSymbolDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCSSymbolDictionary.m; path = src/ExecutorObjectiveC/OCSSymbolDictionary.m; sourceTree = "<group>"; };
+		A642F01F4FBB9E507230F8184EA61998 /* OCSPLocalizedMessageTable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCSPLocalizedMessageTable.m; path = Pod/TestClasses/OCSPLocalizedMessageTable.m; sourceTree = "<group>"; };
+		A736BF994AC018D15EAAAC9048D5A125 /* Pods-XCFitnesseTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XCFitnesseTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A9E3973144F57D7DEEE8F960E295A76B /* ListExecutor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ListExecutor.h; path = include/CSlim/ListExecutor.h; sourceTree = "<group>"; };
+		AA373B1A3927A5079411BD707B257D2F /* OCSObjectiveCtoCBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCSObjectiveCtoCBridge.h; path = include/ExecutorObjectiveC/OCSObjectiveCtoCBridge.h; sourceTree = "<group>"; };
+		AAC405455F8E20BD0434D9D3E3D2879A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		ACD076C142805094C12317055198C516 /* OCSMethodCaller.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCSMethodCaller.m; path = src/ExecutorObjectiveC/OCSMethodCaller.m; sourceTree = "<group>"; };
+		B0D441209B8CF42A606BBBB42E071922 /* OCSInstanceCreator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCSInstanceCreator.m; path = src/ExecutorObjectiveC/OCSInstanceCreator.m; sourceTree = "<group>"; };
+		B1E1C9CD45CE434797EB15123A3BC561 /* Pods-XCFitnesse-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XCFitnesse-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B291A192DBA721652A9E4BD51DBC40A6 /* Pods-XCFitnesseTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XCFitnesseTests-frameworks.sh"; sourceTree = "<group>"; };
+		B29968CEF798E131099E120F66C7B84E /* Pods-XCFitnesse-AcceptanceUnitTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XCFitnesse-AcceptanceUnitTests-resources.sh"; sourceTree = "<group>"; };
+		B404A278BFAB5FC10E410E477BAC4158 /* Pods-XCFitnesse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XCFitnesse.debug.xcconfig"; sourceTree = "<group>"; };
+		B4C0D378198C095CBAA237EA4AD771E9 /* OCSStatementExecutor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCSStatementExecutor.h; path = include/ExecutorObjectiveC/OCSStatementExecutor.h; sourceTree = "<group>"; };
+		B89BF7315BAB3516AF2A51041DC39C3B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BC0E011C66C021AFFB2306878F236CE8 /* OCSReturnValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCSReturnValue.m; path = src/ExecutorObjectiveC/OCSReturnValue.m; sourceTree = "<group>"; };
+		C1CAB4F2E640031893FCE33E2A714D61 /* SlimList.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = SlimList.c; path = src/CSlim/SlimList.c; sourceTree = "<group>"; };
+		C2AC3A0C279DA211BAF548A405D78D61 /* Main.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = Main.c; path = fixtures/Main.c; sourceTree = "<group>"; };
+		C8DED42BC7B495B332ED54FE3FE296ED /* SlimListSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SlimListSerializer.h; path = include/CSlim/SlimListSerializer.h; sourceTree = "<group>"; };
+		CBC7D7AF1A0DE5D27A26A69113C05B32 /* OCSSelector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCSSelector.m; path = src/ExecutorObjectiveC/OCSSelector.m; sourceTree = "<group>"; };
+		CDB9BC1DA4E0DD6BC498BF3FDBD4E658 /* TcpComLink.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = TcpComLink.c; path = src/Com/TcpComLink.c; sourceTree = "<group>"; };
+		D245D96436CBF06CF678EE66D4721F07 /* Pods-XCFitnesseTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XCFitnesseTests-dummy.m"; sourceTree = "<group>"; };
+		D46F632D40BD3AE15707C90E221F88EE /* Pods-XCFitnesseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XCFitnesseTests.release.xcconfig"; sourceTree = "<group>"; };
+		D6624A521D192A4064A7319696F7F871 /* Pods-XCFitnesse-AcceptanceUnitTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XCFitnesse-AcceptanceUnitTests-dummy.m"; sourceTree = "<group>"; };
+		D6E3D4D1CCB3E4F30331577C121F2969 /* Pods-XCFitnesse-AcceptanceTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XCFitnesse-AcceptanceTest-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DDF30E08A2F8957D0EA2394556A8B79C /* SlimList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SlimList.h; path = include/CSlim/SlimList.h; sourceTree = "<group>"; };
+		E20A710496AAA983D11876E26A829516 /* OCSPAssertRecorder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCSPAssertRecorder.h; path = Pod/TestClasses/OCSPAssertRecorder.h; sourceTree = "<group>"; };
+		E5498AEF73B7C0F2E78AA71060EDCD6D /* OCSPJUnitXMLParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCSPJUnitXMLParser.h; path = Pod/TestClasses/OCSPJUnitXMLParser.h; sourceTree = "<group>"; };
+		EB5CD02C304DBC756621B68CA9160D28 /* SocketServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SocketServer.h; path = include/Com/SocketServer.h; sourceTree = "<group>"; };
+		EB9C7098A7AFA1B89C7C10655D2C85C7 /* Pods-XCFitnesse-AcceptanceUnitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XCFitnesse-AcceptanceUnitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ED943873CFA4745EB06399336E5CB811 /* libcslim.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libcslim.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0613B79BF522E523F58C831A159A7BD /* OCSPTestReportReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCSPTestReportReader.m; path = Pod/TestClasses/OCSPTestReportReader.m; sourceTree = "<group>"; };
+		F0EE5D393362C39C1AA28EEEA7CC5FF3 /* OCSException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCSException.m; path = src/ExecutorObjectiveC/OCSException.m; sourceTree = "<group>"; };
+		F3210EB717371B41CD5818F20F02D376 /* Pods-XCFitnesse-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XCFitnesse-resources.sh"; sourceTree = "<group>"; };
+		F7BBDEDF464519BD96A693618F799434 /* Pods-XCFitnesse-AcceptanceUnitTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XCFitnesse-AcceptanceUnitTests-frameworks.sh"; sourceTree = "<group>"; };
+		F7F638B5EE0D32CB006CF7BB48AD6641 /* Pods-XCFitnesseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XCFitnesseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F83D7A7378E6F1A48CF28C7FDC917BA1 /* OCSPTestCaseReport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCSPTestCaseReport.h; path = Pod/TestClasses/OCSPTestCaseReport.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E9F2747A5E3CA2D635E5BBC5E987ACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F256A2862A74834623F4F9DB0651DC3F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BCCB64DEB7E3650A4EEC4CC510FB55D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				373BDC50647066D953B063FE7C107509 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C73FA8CEDFDAEA64276C3346C4865210 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A18FE7337A0165AAD2287213050DE42A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C844292D759DEBA414CD20006836D686 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C81FD3C81ECB6847CDA1825F630ADE2 /* Foundation.framework in Frameworks */,
+				1AF797586290A9A508FE0A138921AB49 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F220C757A65AD7906558BC2090D0EB69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27952AE0BABE796C6AD24017667B5D63 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F888D117E66C024AA91DB7B39E45F04F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA90F95D48368216E5517C3A3B9C2BF0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08DAF836291DABCD10A0C631C34CB0C7 /* OCSlimProjectTestBundleSupport */ = {
+			isa = PBXGroup;
+			children = (
+				E20A710496AAA983D11876E26A829516 /* OCSPAssertRecorder.h */,
+				6E9BD5B5D8484F5530A66CE888B510CA /* OCSPAssertRecorder.m */,
+				E5498AEF73B7C0F2E78AA71060EDCD6D /* OCSPJUnitXMLParser.h */,
+				88E3E9BA2AB5067748C4382B22B28283 /* OCSPJUnitXMLParser.m */,
+				8DECEC43EE2E989981FADF47255F660A /* OCSPLocalizedMessageTable.h */,
+				A642F01F4FBB9E507230F8184EA61998 /* OCSPLocalizedMessageTable.m */,
+				793D53643DB52A30518C9884ED2D3E04 /* OCSPPrincipalTestObserver.h */,
+				4839AC8A7D6ADBA1EC280DDD585E61EC /* OCSPPrincipalTestObserver.m */,
+				F83D7A7378E6F1A48CF28C7FDC917BA1 /* OCSPTestCaseReport.h */,
+				015DF95F9878A019815EDB6C30A26292 /* OCSPTestCaseReport.m */,
+				9F92330CBFC6B23DCE37CEFCBF62FEB0 /* OCSPTestDataManager.h */,
+				47B77E56C8D5679A4C846424A645D222 /* OCSPTestDataManager.m */,
+				65875E9AD7F816BF1723992F3795A558 /* OCSPTestReportCenter.h */,
+				40407FF6043F1607A31D107997B1085A /* OCSPTestReportCenter.m */,
+				9AC73EF94D53351108C8355957B94A3F /* OCSPTestReportReader.h */,
+				F0613B79BF522E523F58C831A159A7BD /* OCSPTestReportReader.m */,
+				8D760A62177FA20A91D50D91AB80657A /* OCSPTestSuite.h */,
+				089D608F5BA8886AA998585923BB0C0B /* OCSPTestSuite.m */,
+				5F47F39D8C6CB884CF2F7365FC4C5AF7 /* Resources */,
+				DA2C312F8DBF9AF9EFDC8C2B0A4969E8 /* Support Files */,
+			);
+			path = OCSlimProjectTestBundleSupport;
+			sourceTree = "<group>";
+		};
+		35B70EAED87E0EE77CFD2C95DFB852B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC77760CF4D7A139CB366F70EDAA2B3C /* cslim */,
+				3A3513E4427A51E653F5B7F51CFBFC59 /* OCSlimProject */,
+				08DAF836291DABCD10A0C631C34CB0C7 /* OCSlimProjectTestBundleSupport */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3A3513E4427A51E653F5B7F51CFBFC59 /* OCSlimProject */ = {
+			isa = PBXGroup;
+			children = (
+				6ADF63830C221D85C7A885BF727265FF /* OCSlimProject.h */,
+			);
+			path = OCSlimProject;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D24B2EA016AE4FABDB5AF17F3FD9C222 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5F47F39D8C6CB884CF2F7365FC4C5AF7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2F57B45D9BB4E442C27A9FEBCE64487D /* en.lproj */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				35B70EAED87E0EE77CFD2C95DFB852B2 /* Pods */,
+				97C7512EF25DA1987296F32C71BAA540 /* Products */,
+				E8F76C90B32C8F31BA2FD8AB0C2DD42D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8A8E4900E67E1C4E7ABCEA1EDC1D178A /* Pods-XCFitnesse */ = {
+			isa = PBXGroup;
+			children = (
+				B1E1C9CD45CE434797EB15123A3BC561 /* Pods-XCFitnesse-acknowledgements.markdown */,
+				22C29C00C8E62AA4801C7F169096B7E8 /* Pods-XCFitnesse-acknowledgements.plist */,
+				A20A04534610B1A8BB0C11C771CA1924 /* Pods-XCFitnesse-dummy.m */,
+				0DA355CD2CB38CA5971FC61AC58D2E13 /* Pods-XCFitnesse-frameworks.sh */,
+				F3210EB717371B41CD5818F20F02D376 /* Pods-XCFitnesse-resources.sh */,
+				B404A278BFAB5FC10E410E477BAC4158 /* Pods-XCFitnesse.debug.xcconfig */,
+				A22046B64DDCFE75621E5B7F97FF0D54 /* Pods-XCFitnesse.release.xcconfig */,
+			);
+			name = "Pods-XCFitnesse";
+			path = "Target Support Files/Pods-XCFitnesse";
+			sourceTree = "<group>";
+		};
+		97C7512EF25DA1987296F32C71BAA540 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED943873CFA4745EB06399336E5CB811 /* libcslim.a */,
+				350CA87282378CA2223D2673D66E2A16 /* libOCSlimProjectTestBundleSupport.a */,
+				714C43905A9F1BA170BE6CD2418DFBF5 /* libPods-XCFitnesse.a */,
+				445D0B3CD9095A09EB8BC0BED93F53F2 /* libPods-XCFitnesse-AcceptanceTest.a */,
+				720B3B1F6F6F639E64A93A5C128344F7 /* libPods-XCFitnesse-AcceptanceUnitTests.a */,
+				16D4E385D5699C6B57AE7E1D07E56A0F /* libPods-XCFitnesseTests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B26D0FF46372DAE668490F9FB9C2A979 /* Pods-XCFitnesseTests */ = {
+			isa = PBXGroup;
+			children = (
+				A736BF994AC018D15EAAAC9048D5A125 /* Pods-XCFitnesseTests-acknowledgements.markdown */,
+				960FD9B61765D29936FEC80CE74E241A /* Pods-XCFitnesseTests-acknowledgements.plist */,
+				D245D96436CBF06CF678EE66D4721F07 /* Pods-XCFitnesseTests-dummy.m */,
+				B291A192DBA721652A9E4BD51DBC40A6 /* Pods-XCFitnesseTests-frameworks.sh */,
+				4E994E84D5FD839768AB5DE35D12EDB8 /* Pods-XCFitnesseTests-resources.sh */,
+				F7F638B5EE0D32CB006CF7BB48AD6641 /* Pods-XCFitnesseTests.debug.xcconfig */,
+				D46F632D40BD3AE15707C90E221F88EE /* Pods-XCFitnesseTests.release.xcconfig */,
+			);
+			name = "Pods-XCFitnesseTests";
+			path = "Target Support Files/Pods-XCFitnesseTests";
+			sourceTree = "<group>";
+		};
+		C9A7460528BA955C9BD99843EA949891 /* Pods-XCFitnesse-AcceptanceTest */ = {
+			isa = PBXGroup;
+			children = (
+				D6E3D4D1CCB3E4F30331577C121F2969 /* Pods-XCFitnesse-AcceptanceTest-acknowledgements.markdown */,
+				4540AD27C4284A6546BEF1C872EBA358 /* Pods-XCFitnesse-AcceptanceTest-acknowledgements.plist */,
+				989F1584BF57ED333B29E9AF5420BE59 /* Pods-XCFitnesse-AcceptanceTest-dummy.m */,
+				208237DB644CA3CE9361F710DB10EC26 /* Pods-XCFitnesse-AcceptanceTest-frameworks.sh */,
+				8A011060DE6E62226E90F3BDFE30E9C6 /* Pods-XCFitnesse-AcceptanceTest-resources.sh */,
+				A30441C56AA0D8AEB8718348FAF1B244 /* Pods-XCFitnesse-AcceptanceTest.debug.xcconfig */,
+				1B75744427A0D5BF0647BFDE1F615D46 /* Pods-XCFitnesse-AcceptanceTest.release.xcconfig */,
+			);
+			name = "Pods-XCFitnesse-AcceptanceTest";
+			path = "Target Support Files/Pods-XCFitnesse-AcceptanceTest";
+			sourceTree = "<group>";
+		};
+		D24B2EA016AE4FABDB5AF17F3FD9C222 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AAC405455F8E20BD0434D9D3E3D2879A /* Foundation.framework */,
+				B89BF7315BAB3516AF2A51041DC39C3B /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D68178BD162611D96C0B9E873CC3B1F7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				541660E3DBF5072B982FC1C6D02E9370 /* cslim.xcconfig */,
+				5302C22E69300EDFC15D9FCB6D10F4C0 /* cslim-dummy.m */,
+				9FFE8CC3E6CEA3436DFB73AAAAD17BE1 /* cslim-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/cslim";
+			sourceTree = "<group>";
+		};
+		DA2C312F8DBF9AF9EFDC8C2B0A4969E8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				07922B02E95FE9D5647619D12004F5F8 /* OCSlimProjectTestBundleSupport.xcconfig */,
+				46B3C031BCF6B0BEA0DB45D70E1609BB /* OCSlimProjectTestBundleSupport-dummy.m */,
+				6D8F9CC89A200DBECEE5F2AF225E8E5E /* OCSlimProjectTestBundleSupport-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OCSlimProjectTestBundleSupport";
+			sourceTree = "<group>";
+		};
+		E8F76C90B32C8F31BA2FD8AB0C2DD42D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A8E4900E67E1C4E7ABCEA1EDC1D178A /* Pods-XCFitnesse */,
+				C9A7460528BA955C9BD99843EA949891 /* Pods-XCFitnesse-AcceptanceTest */,
+				ED70C112B4D4A7DCB88177D1664614E4 /* Pods-XCFitnesse-AcceptanceUnitTests */,
+				B26D0FF46372DAE668490F9FB9C2A979 /* Pods-XCFitnesseTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EC77760CF4D7A139CB366F70EDAA2B3C /* cslim */ = {
+			isa = PBXGroup;
+			children = (
+				23C9E5055CD1A0A91F6037BEDDD3B833 /* Fixtures.h */,
+				6D7AF29D5BC8F14DD00EE05499931E93 /* Fixtures.m */,
+				2E9F300654CD5710EF317689199EB84A /* ListExecutor.c */,
+				A9E3973144F57D7DEEE8F960E295A76B /* ListExecutor.h */,
+				C2AC3A0C279DA211BAF548A405D78D61 /* Main.c */,
+				8FBC68949BE50DDE3FB1481A2CE99500 /* OCSException.h */,
+				F0EE5D393362C39C1AA28EEEA7CC5FF3 /* OCSException.m */,
+				5FC7751F53BA823FDF3662F3916E8B96 /* OCSInstanceCreator.h */,
+				B0D441209B8CF42A606BBBB42E071922 /* OCSInstanceCreator.m */,
+				8EF49D06356AD2BF50E91698B1E0CD65 /* OCSInvocation.h */,
+				47FCC62589E1147A9329A9B602C5D821 /* OCSInvocation.m */,
+				358E96227AA4D3CD71D0A9919D76BA6A /* OCSlimToObjectiveCBridge.h */,
+				20BC256A25B780055E45A9AAD12E0D7D /* OCSlimToObjectiveCBridge.m */,
+				5A3B45F46B132099B957EA46A56FC793 /* OCSMethodCaller.h */,
+				ACD076C142805094C12317055198C516 /* OCSMethodCaller.m */,
+				AA373B1A3927A5079411BD707B257D2F /* OCSObjectiveCtoCBridge.h */,
+				2DEBBB276D38FF401006D9EB08FFB4BA /* OCSObjectiveCtoCBridge.m */,
+				7BF81529CDC264923B68800780D55474 /* OCSReturnValue.h */,
+				BC0E011C66C021AFFB2306878F236CE8 /* OCSReturnValue.m */,
+				440811055DEA5C61632393E3070DFD66 /* OCSSelector.h */,
+				CBC7D7AF1A0DE5D27A26A69113C05B32 /* OCSSelector.m */,
+				B4C0D378198C095CBAA237EA4AD771E9 /* OCSStatementExecutor.h */,
+				14CDCD43B4671557A3C0C6E7A07C7EA7 /* OCSStatementExecutor.m */,
+				6EE38D472F51D87BD44A9BD30417282C /* OCSSymbolDictionary.h */,
+				A3821EC09992AABF086511BEF63C3997 /* OCSSymbolDictionary.m */,
+				168E69FE8A23E8514ABDD802E2514127 /* Slim.c */,
+				1F5FCC4110F82903C56F8472B6C3B32C /* Slim.h */,
+				27EEACFA1D5D14D2F520CF3ED2E115E7 /* SlimConnectionHandler.c */,
+				3DC41F47FA84AA4751B09B2A59C3EAA1 /* SlimConnectionHandler.h */,
+				C1CAB4F2E640031893FCE33E2A714D61 /* SlimList.c */,
+				DDF30E08A2F8957D0EA2394556A8B79C /* SlimList.h */,
+				58A9E12E3892FB6D0E99FE29C0DC94FA /* SlimListDeserializer.c */,
+				90A6ADC3AF9670B6A3D9F2413D20E88B /* SlimListDeserializer.h */,
+				81E9F87999F491477AD03733B38B60BF /* SlimListSerializer.c */,
+				C8DED42BC7B495B332ED54FE3FE296ED /* SlimListSerializer.h */,
+				2D622235FE5A1E4599E7B0F5EEBD1876 /* SlimUtil.c */,
+				109F0D128FF3773BC2355EE49CDD5275 /* SlimUtil.h */,
+				A25F5213B602A8FF3F5C37EEC00AE633 /* SocketServer.c */,
+				EB5CD02C304DBC756621B68CA9160D28 /* SocketServer.h */,
+				8EF32930369540E6626866AD14FDE81A /* StatementExecutor.h */,
+				88142B51BD3BFF210CF746FF11A5231F /* StatementExecutor.m */,
+				CDB9BC1DA4E0DD6BC498BF3FDBD4E658 /* TcpComLink.c */,
+				A22D1EC81216D3240DF5EA4E3C90F72C /* TcpComLink.h */,
+				D68178BD162611D96C0B9E873CC3B1F7 /* Support Files */,
+			);
+			path = cslim;
+			sourceTree = "<group>";
+		};
+		ED70C112B4D4A7DCB88177D1664614E4 /* Pods-XCFitnesse-AcceptanceUnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				47EB9615DE1DF79587A0F6A475126DA9 /* Pods-XCFitnesse-AcceptanceUnitTests-acknowledgements.markdown */,
+				7BBF3C42479E4FBAFA4F8C83F6CA0820 /* Pods-XCFitnesse-AcceptanceUnitTests-acknowledgements.plist */,
+				D6624A521D192A4064A7319696F7F871 /* Pods-XCFitnesse-AcceptanceUnitTests-dummy.m */,
+				F7BBDEDF464519BD96A693618F799434 /* Pods-XCFitnesse-AcceptanceUnitTests-frameworks.sh */,
+				B29968CEF798E131099E120F66C7B84E /* Pods-XCFitnesse-AcceptanceUnitTests-resources.sh */,
+				EB9C7098A7AFA1B89C7C10655D2C85C7 /* Pods-XCFitnesse-AcceptanceUnitTests.debug.xcconfig */,
+				1DD928D198BB0AE6AF90FC0C99ECE306 /* Pods-XCFitnesse-AcceptanceUnitTests.release.xcconfig */,
+			);
+			name = "Pods-XCFitnesse-AcceptanceUnitTests";
+			path = "Target Support Files/Pods-XCFitnesse-AcceptanceUnitTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D0C9FFC5EA9F4CAEA0FDF4449D38EB20 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				973EFF9F619A8E8F0A823CC392457B75 /* OCSPAssertRecorder.h in Headers */,
+				3F1AB4D03F387C090188CAA90D167CA7 /* OCSPJUnitXMLParser.h in Headers */,
+				15943268904B0C613B45556381B80266 /* OCSPLocalizedMessageTable.h in Headers */,
+				12679DF075D11B88B67F2952AC1E1D18 /* OCSPPrincipalTestObserver.h in Headers */,
+				3CF4A128C6548E03B7D2A96B11BC07DA /* OCSPTestCaseReport.h in Headers */,
+				AD612BA0267D28BCBD0D5B05A04578C1 /* OCSPTestDataManager.h in Headers */,
+				881BB83FDDDE55416F9BCCD0B20AF04A /* OCSPTestReportCenter.h in Headers */,
+				3E5CCEB019AD2CAE4DEF8CC7E7234CD8 /* OCSPTestReportReader.h in Headers */,
+				E1DC8EC0F83FC842971359A0BE372B8A /* OCSPTestSuite.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFA68AB236B602E7911ACDDFB06A3B44 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3FD2D09D1F2B32DE72E4DA695E0D840 /* Fixtures.h in Headers */,
+				9E5E0E4C276BAE5C2EE5856C0A50189D /* ListExecutor.h in Headers */,
+				45551F8075A77DF92A6D396F70C73FA7 /* OCSException.h in Headers */,
+				6AB68E639866A92EF16CFB28AD23617E /* OCSInstanceCreator.h in Headers */,
+				E79F1C70FC63D6831FC8F5F7D97F2D5A /* OCSInvocation.h in Headers */,
+				787812A77C175E0F2B2AB1360DC4B86F /* OCSlimToObjectiveCBridge.h in Headers */,
+				62CCBD20055E6628DC85A0A34D06C24B /* OCSMethodCaller.h in Headers */,
+				9FF92D02EEA6576C14281D7587B90356 /* OCSObjectiveCtoCBridge.h in Headers */,
+				EDA8775CFF6CAF2A85EB32532B718056 /* OCSReturnValue.h in Headers */,
+				39F139F0BEF651888A7B1F7FBA2B425A /* OCSSelector.h in Headers */,
+				BA53B488C0922672444A42A3582D7DD0 /* OCSStatementExecutor.h in Headers */,
+				56010DB3DDBA3C9A7D4CE7F4E52289E1 /* OCSSymbolDictionary.h in Headers */,
+				AD22BE1735078C1BB9939F38D642D21B /* Slim.h in Headers */,
+				3BBA802A7AA5C037F96057DD05FF347F /* SlimConnectionHandler.h in Headers */,
+				B9CC617142AFBFC82A96DDC148F7C3FA /* SlimList.h in Headers */,
+				36DA2F913F209660285B961F8627C06F /* SlimListDeserializer.h in Headers */,
+				E061B0AA34E1DA0E15EF8356E3C9BEF8 /* SlimListSerializer.h in Headers */,
+				1FDF45FE2436F7E8B2A3E8C9B504E992 /* SlimUtil.h in Headers */,
+				DFF87DD97BC6A807FFD71303E00000B8 /* SocketServer.h in Headers */,
+				71AB97947F7054502CC865E4AA9B5F55 /* StatementExecutor.h in Headers */,
+				45D4A82B4C7F77F5A6CAC3C3B4A1AA80 /* TcpComLink.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		246775F798770CEAEEE7383C91CDBBF4 /* Pods-XCFitnesseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFFC858FBD3632605C0E21D458191D04 /* Build configuration list for PBXNativeTarget "Pods-XCFitnesseTests" */;
+			buildPhases = (
+				0E352D261404962E515E8558C41E4A51 /* Sources */,
+				F220C757A65AD7906558BC2090D0EB69 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-XCFitnesseTests";
+			productName = "Pods-XCFitnesseTests";
+			productReference = 16D4E385D5699C6B57AE7E1D07E56A0F /* libPods-XCFitnesseTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		322E01C77ED63E8606FEC5F22B0E3A2F /* cslim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B72DBCE3785D2D4CCE0C237EE90DEE69 /* Build configuration list for PBXNativeTarget "cslim" */;
+			buildPhases = (
+				09B69A31361396279F413A84C851E303 /* Sources */,
+				C73FA8CEDFDAEA64276C3346C4865210 /* Frameworks */,
+				DFA68AB236B602E7911ACDDFB06A3B44 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cslim;
+			productName = cslim;
+			productReference = ED943873CFA4745EB06399336E5CB811 /* libcslim.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AB1889F79616BF0DC8410A2CAB0048DC /* OCSlimProjectTestBundleSupport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDA3A4C7178553CAA9EB816C3C92A019 /* Build configuration list for PBXNativeTarget "OCSlimProjectTestBundleSupport" */;
+			buildPhases = (
+				C99EE8B94811CB675FC48E3DE4F0077B /* Sources */,
+				C844292D759DEBA414CD20006836D686 /* Frameworks */,
+				D0C9FFC5EA9F4CAEA0FDF4449D38EB20 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OCSlimProjectTestBundleSupport;
+			productName = OCSlimProjectTestBundleSupport;
+			productReference = 350CA87282378CA2223D2673D66E2A16 /* libOCSlimProjectTestBundleSupport.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BFA9E158550C1BE85BBEFCB6D6E018A3 /* Pods-XCFitnesse-AcceptanceTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEF5A3E47C32CD40CAED13AEF2D26B5D /* Build configuration list for PBXNativeTarget "Pods-XCFitnesse-AcceptanceTest" */;
+			buildPhases = (
+				F24142C117CA56E114C4830F7F20C9F8 /* Sources */,
+				3E9F2747A5E3CA2D635E5BBC5E987ACC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				935104A54B3CF2EFBDD9B7DE1304EF46 /* PBXTargetDependency */,
+			);
+			name = "Pods-XCFitnesse-AcceptanceTest";
+			productName = "Pods-XCFitnesse-AcceptanceTest";
+			productReference = 445D0B3CD9095A09EB8BC0BED93F53F2 /* libPods-XCFitnesse-AcceptanceTest.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CD27D4304AF627BF91A11EC9D810F325 /* Pods-XCFitnesse-AcceptanceUnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AA727AAEDC1DA5F2F34B48E32566C12 /* Build configuration list for PBXNativeTarget "Pods-XCFitnesse-AcceptanceUnitTests" */;
+			buildPhases = (
+				6787A64DDC57981F8451C447FC24A061 /* Sources */,
+				8BCCB64DEB7E3650A4EEC4CC510FB55D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C8C26D0584105880BE6D783D92A9E10 /* PBXTargetDependency */,
+			);
+			name = "Pods-XCFitnesse-AcceptanceUnitTests";
+			productName = "Pods-XCFitnesse-AcceptanceUnitTests";
+			productReference = 720B3B1F6F6F639E64A93A5C128344F7 /* libPods-XCFitnesse-AcceptanceUnitTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DC335AAD92695D7601B118F5139DD234 /* Pods-XCFitnesse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C1D341DDCEAE51FFBD7F252F6C32433 /* Build configuration list for PBXNativeTarget "Pods-XCFitnesse" */;
+			buildPhases = (
+				E1A094B37426E8E0FD5551F4D6CD319B /* Sources */,
+				F888D117E66C024AA91DB7B39E45F04F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-XCFitnesse";
+			productName = "Pods-XCFitnesse";
+			productReference = 714C43905A9F1BA170BE6CD2418DFBF5 /* libPods-XCFitnesse.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 97C7512EF25DA1987296F32C71BAA540 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				322E01C77ED63E8606FEC5F22B0E3A2F /* cslim */,
+				AB1889F79616BF0DC8410A2CAB0048DC /* OCSlimProjectTestBundleSupport */,
+				DC335AAD92695D7601B118F5139DD234 /* Pods-XCFitnesse */,
+				BFA9E158550C1BE85BBEFCB6D6E018A3 /* Pods-XCFitnesse-AcceptanceTest */,
+				CD27D4304AF627BF91A11EC9D810F325 /* Pods-XCFitnesse-AcceptanceUnitTests */,
+				246775F798770CEAEEE7383C91CDBBF4 /* Pods-XCFitnesseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09B69A31361396279F413A84C851E303 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9338C19503D076DC5F16CEA1ACCD14A /* cslim-dummy.m in Sources */,
+				C885F4EE4AE5B43AFF3598F12E5CED43 /* Fixtures.m in Sources */,
+				F79C8776B4827B1F23669C355F87C812 /* ListExecutor.c in Sources */,
+				971C801BDA53AB58E4AB9305054E5313 /* Main.c in Sources */,
+				DB6E666D6686FEC0723D5E4C56B379C0 /* OCSException.m in Sources */,
+				CD15526A6A61F2858CF0B58FF53FCAA5 /* OCSInstanceCreator.m in Sources */,
+				F7D8D4C1D45B2E4147C1274F59A6A399 /* OCSInvocation.m in Sources */,
+				CF58C15E6F9BF53B4E0E886043FCC708 /* OCSlimToObjectiveCBridge.m in Sources */,
+				F4401358B20E88F6D3904E6CB3317589 /* OCSMethodCaller.m in Sources */,
+				ACE9DEC7D975628A2A779AA824EBEA3C /* OCSObjectiveCtoCBridge.m in Sources */,
+				A25FE0B0351D14BDAE988200701584BD /* OCSReturnValue.m in Sources */,
+				F9E4E5DD15A6BA43B618BEB6E148781A /* OCSSelector.m in Sources */,
+				02D429097B31EBEB8FDC3E7CE087AB1A /* OCSStatementExecutor.m in Sources */,
+				0BE45CE55CB81D4712740D59B56E31C7 /* OCSSymbolDictionary.m in Sources */,
+				46ED5CAC8A97E76D8C0A7A52320943F6 /* Slim.c in Sources */,
+				8F4A1EDFD3953096C13A7DF046E15FFA /* SlimConnectionHandler.c in Sources */,
+				0A405F2498ADA18F43B716FEE603FF41 /* SlimList.c in Sources */,
+				586D5653DC1F7D6577A582CC478539BC /* SlimListDeserializer.c in Sources */,
+				90FFCB95383075B33AE04425948E6936 /* SlimListSerializer.c in Sources */,
+				CDE3735655C6E303414CE1335C37D45B /* SlimUtil.c in Sources */,
+				09824081DE84BA6C12356240DFB391A2 /* SocketServer.c in Sources */,
+				BA48567321F0A144890D2EFB20270562 /* StatementExecutor.m in Sources */,
+				DD84290086F0965891D1547C19646FA3 /* TcpComLink.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E352D261404962E515E8558C41E4A51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFD2ECF687F1024E446ED4E59C1294D8 /* Pods-XCFitnesseTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6787A64DDC57981F8451C447FC24A061 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C992C867A61EE370C69900DD791DD45D /* Pods-XCFitnesse-AcceptanceUnitTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C99EE8B94811CB675FC48E3DE4F0077B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44F71C8BEA7EC9442C3130B3D9CCF32 /* OCSlimProjectTestBundleSupport-dummy.m in Sources */,
+				43B4F637926270257CE97E7C765A9A38 /* OCSPAssertRecorder.m in Sources */,
+				A9FE2F7EC3081D280E94D376FB8A5BFC /* OCSPJUnitXMLParser.m in Sources */,
+				9C3B616402E3CB13878875F1A9AD06FB /* OCSPLocalizedMessageTable.m in Sources */,
+				63E84BBFBB9FD8243C9AC8CA7C66E7B9 /* OCSPPrincipalTestObserver.m in Sources */,
+				E85738801B4A6C2017F52E7F7B7973C3 /* OCSPTestCaseReport.m in Sources */,
+				0F3844BA637633189174ED2871A7D4A9 /* OCSPTestDataManager.m in Sources */,
+				44CFCA83A504E1AA69987E50319FA06B /* OCSPTestReportCenter.m in Sources */,
+				ABD06C9FC917D052ED72DE39688657AF /* OCSPTestReportReader.m in Sources */,
+				078AD57FCE9755AA700EDDDDFE34BEFF /* OCSPTestSuite.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1A094B37426E8E0FD5551F4D6CD319B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B1322C7ADDA985E5C1E1D43912D6DE4 /* Pods-XCFitnesse-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F24142C117CA56E114C4830F7F20C9F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A43DC95886D8168998B001F942DF5A4 /* Pods-XCFitnesse-AcceptanceTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C8C26D0584105880BE6D783D92A9E10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OCSlimProjectTestBundleSupport;
+			target = AB1889F79616BF0DC8410A2CAB0048DC /* OCSlimProjectTestBundleSupport */;
+			targetProxy = 71CC43A0263C09763FB487966436A8A9 /* PBXContainerItemProxy */;
+		};
+		935104A54B3CF2EFBDD9B7DE1304EF46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = cslim;
+			target = 322E01C77ED63E8606FEC5F22B0E3A2F /* cslim */;
+			targetProxy = AB1402179584926CBF2E17D4822C53BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		075AEDB03654968BEFA862079908CE00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07922B02E95FE9D5647619D12004F5F8 /* OCSlimProjectTestBundleSupport.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OCSlimProjectTestBundleSupport/OCSlimProjectTestBundleSupport-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		0913C3096300BD8067ED1E982F925877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B404A278BFAB5FC10E410E477BAC4158 /* Pods-XCFitnesse.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		10DD60715DFB157054406D8AD23CA17A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B75744427A0D5BF0647BFDE1F615D46 /* Pods-XCFitnesse-AcceptanceTest.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1B28A498E725020BEE685227983FA025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A22046B64DDCFE75621E5B7F97FF0D54 /* Pods-XCFitnesse.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		420DBD545B38BDB08FBB32E8C14B35C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DD928D198BB0AE6AF90FC0C99ECE306 /* Pods-XCFitnesse-AcceptanceUnitTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		42287DDF97330524BA3EF220F0276DA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68D625B1FE42DB942644540F82E764CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7F638B5EE0D32CB006CF7BB48AD6641 /* Pods-XCFitnesseTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7A4EAAA76064BAB1AB85EB32AED9BBD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D46F632D40BD3AE15707C90E221F88EE /* Pods-XCFitnesseTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9B74723C02BB91008AEE03DD2851FC72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 541660E3DBF5072B982FC1C6D02E9370 /* cslim.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/cslim/cslim-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AE9439C22469D35336242DD983DB5C5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C31A2399B9274CCF309D4BAC4EFE60CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB9C7098A7AFA1B89C7C10655D2C85C7 /* Pods-XCFitnesse-AcceptanceUnitTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E39EE7A5438B0D22A54D4EBD88F743DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07922B02E95FE9D5647619D12004F5F8 /* OCSlimProjectTestBundleSupport.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OCSlimProjectTestBundleSupport/OCSlimProjectTestBundleSupport-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E9944D1FD40BD41BD6737BF043F78BA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A30441C56AA0D8AEB8718348FAF1B244 /* Pods-XCFitnesse-AcceptanceTest.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EE98823C82DA75ECD8453ABD6FDE0C55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 541660E3DBF5072B982FC1C6D02E9370 /* cslim.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/cslim/cslim-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AA727AAEDC1DA5F2F34B48E32566C12 /* Build configuration list for PBXNativeTarget "Pods-XCFitnesse-AcceptanceUnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C31A2399B9274CCF309D4BAC4EFE60CA /* Debug */,
+				420DBD545B38BDB08FBB32E8C14B35C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE9439C22469D35336242DD983DB5C5F /* Debug */,
+				42287DDF97330524BA3EF220F0276DA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C1D341DDCEAE51FFBD7F252F6C32433 /* Build configuration list for PBXNativeTarget "Pods-XCFitnesse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0913C3096300BD8067ED1E982F925877 /* Debug */,
+				1B28A498E725020BEE685227983FA025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B72DBCE3785D2D4CCE0C237EE90DEE69 /* Build configuration list for PBXNativeTarget "cslim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B74723C02BB91008AEE03DD2851FC72 /* Debug */,
+				EE98823C82DA75ECD8453ABD6FDE0C55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDA3A4C7178553CAA9EB816C3C92A019 /* Build configuration list for PBXNativeTarget "OCSlimProjectTestBundleSupport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E39EE7A5438B0D22A54D4EBD88F743DD /* Debug */,
+				075AEDB03654968BEFA862079908CE00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFFC858FBD3632605C0E21D458191D04 /* Build configuration list for PBXNativeTarget "Pods-XCFitnesseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68D625B1FE42DB942644540F82E764CC /* Debug */,
+				7A4EAAA76064BAB1AB85EB32AED9BBD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEF5A3E47C32CD40CAED13AEF2D26B5D /* Build configuration list for PBXNativeTarget "Pods-XCFitnesse-AcceptanceTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9944D1FD40BD41BD6737BF043F78BA9 /* Debug */,
+				10DD60715DFB157054406D8AD23CA17A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
