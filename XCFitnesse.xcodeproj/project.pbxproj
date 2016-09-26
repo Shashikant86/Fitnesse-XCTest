@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		433D54429B10631E91FBE5C7 /* libPods-XCFitnesse-AcceptanceUnitTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69DAE6D367CD4BB9994144B5 /* libPods-XCFitnesse-AcceptanceUnitTests.a */; };
+		57AFA77A4B84B0D343778A3C /* libPods-XCFitnesse-XCFitnesseCucumber.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59D85D5C46C4D2EDAB57736F /* libPods-XCFitnesse-XCFitnesseCucumber.a */; };
 		6AE3DD1672AAD49A41A22AAD /* libPods-XCFitnesseTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 298A8133797F171797B636F2 /* libPods-XCFitnesseTests.a */; };
 		9B3ED0A11D984B9F00825677 /* AcceptanceUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3ED0A01D984B9F00825677 /* AcceptanceUnitTests.swift */; };
 		9B3ED0A31D984B9F00825677 /* OCSlimProjectTestBundleSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3ED0A21D984B9F00825677 /* OCSlimProjectTestBundleSupport.m */; };
@@ -19,6 +20,9 @@
 		9B75D8C21D98323300A72074 /* XCFitnesseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B75D8C11D98323300A72074 /* XCFitnesseTests.swift */; };
 		9B75D8D51D98385C00A72074 /* AcceptanceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B75D8D41D98385C00A72074 /* AcceptanceTest.m */; };
 		9B75D8D81D98385C00A72074 /* FixtureExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B75D8D71D98385C00A72074 /* FixtureExample.swift */; };
+		9BAB03C71D99AD4100A3ADD7 /* XCFitnesseCucumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAB03C61D99AD4100A3ADD7 /* XCFitnesseCucumber.swift */; };
+		9BAB03CB1D99AD4100A3ADD7 /* XCFitnesseCucumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAB03CA1D99AD4100A3ADD7 /* XCFitnesseCucumber.m */; };
+		9BAB03D11D99C10300A3ADD7 /* Features in Resources */ = {isa = PBXBuildFile; fileRef = 9BAB03D01D99C10300A3ADD7 /* Features */; };
 		BD86122B773E0C9BEFFA9093 /* libPods-XCFitnesse.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4F68B995DB93EE485211A76 /* libPods-XCFitnesse.a */; };
 		CD3544B76EBC125CB425954B /* libPods-XCFitnesse-AcceptanceTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0DC14ADE5F3872DAB6421C /* libPods-XCFitnesse-AcceptanceTest.a */; };
 /* End PBXBuildFile section */
@@ -38,6 +42,13 @@
 			remoteGlobalIDString = 9B75D8A81D98323300A72074;
 			remoteInfo = XCFitnesse;
 		};
+		9BAB03D21D99C15700A3ADD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B75D8A11D98323300A72074 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B75D8A81D98323300A72074;
+			remoteInfo = XCFitnesse;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +56,7 @@
 		298A8133797F171797B636F2 /* libPods-XCFitnesseTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XCFitnesseTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E40BA0DCD5AA251704C888A /* Pods-XCFitnesse-AcceptanceTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCFitnesse-AcceptanceTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XCFitnesse-AcceptanceTest/Pods-XCFitnesse-AcceptanceTest.debug.xcconfig"; sourceTree = "<group>"; };
 		3B66088A3CD980E417018F25 /* Pods-XCFitnesse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCFitnesse.release.xcconfig"; path = "Pods/Target Support Files/Pods-XCFitnesse/Pods-XCFitnesse.release.xcconfig"; sourceTree = "<group>"; };
+		59D85D5C46C4D2EDAB57736F /* libPods-XCFitnesse-XCFitnesseCucumber.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XCFitnesse-XCFitnesseCucumber.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		69DAE6D367CD4BB9994144B5 /* libPods-XCFitnesse-AcceptanceUnitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XCFitnesse-AcceptanceUnitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FFB8652F5682386E58C610A /* Pods-XCFitnesse-AcceptanceTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCFitnesse-AcceptanceTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-XCFitnesse-AcceptanceTest/Pods-XCFitnesse-AcceptanceTest.release.xcconfig"; sourceTree = "<group>"; };
 		9975AF61E30CB9BDB2987049 /* Pods-XCFitnesse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCFitnesse.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XCFitnesse/Pods-XCFitnesse.debug.xcconfig"; sourceTree = "<group>"; };
@@ -68,10 +80,19 @@
 		9B75D8D91D98385C00A72074 /* SlimTables.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlimTables.h; sourceTree = "<group>"; };
 		9B75D8DA1D98385C00A72074 /* AcceptanceTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AcceptanceTest-Bridging-Header.h"; sourceTree = "<group>"; };
 		9B75D8DB1D98385C00A72074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BAB03C41D99AD4100A3ADD7 /* XCFitnesseCucumber.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCFitnesseCucumber.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BAB03C61D99AD4100A3ADD7 /* XCFitnesseCucumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCFitnesseCucumber.swift; sourceTree = "<group>"; };
+		9BAB03C81D99AD4100A3ADD7 /* XCFitnesseCucumber-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XCFitnesseCucumber-Bridging-Header.h"; sourceTree = "<group>"; };
+		9BAB03C91D99AD4100A3ADD7 /* XCFitnesseCucumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCFitnesseCucumber.h; sourceTree = "<group>"; };
+		9BAB03CA1D99AD4100A3ADD7 /* XCFitnesseCucumber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCFitnesseCucumber.m; sourceTree = "<group>"; };
+		9BAB03CC1D99AD4100A3ADD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BAB03D01D99C10300A3ADD7 /* Features */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Features; sourceTree = "<group>"; };
 		A582CA3DA5559228D4AD72A9 /* Pods-XCFitnesseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCFitnesseTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XCFitnesseTests/Pods-XCFitnesseTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AE967875740D141F4E73387F /* Pods-XCFitnesse-AcceptanceUnitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCFitnesse-AcceptanceUnitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XCFitnesse-AcceptanceUnitTests/Pods-XCFitnesse-AcceptanceUnitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B48934CE280788F1D99E0D0D /* Pods-XCFitnesse-XCFitnesseCucumber.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCFitnesse-XCFitnesseCucumber.release.xcconfig"; path = "Pods/Target Support Files/Pods-XCFitnesse-XCFitnesseCucumber/Pods-XCFitnesse-XCFitnesseCucumber.release.xcconfig"; sourceTree = "<group>"; };
 		D4F68B995DB93EE485211A76 /* libPods-XCFitnesse.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XCFitnesse.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D655536370474E7343AC9E37 /* Pods-XCFitnesseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCFitnesseTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XCFitnesseTests/Pods-XCFitnesseTests.release.xcconfig"; sourceTree = "<group>"; };
+		F1B9345D28CBDA96E1F415E4 /* Pods-XCFitnesse-XCFitnesseCucumber.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCFitnesse-XCFitnesseCucumber.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XCFitnesse-XCFitnesseCucumber/Pods-XCFitnesse-XCFitnesseCucumber.debug.xcconfig"; sourceTree = "<group>"; };
 		FD0DC14ADE5F3872DAB6421C /* libPods-XCFitnesse-AcceptanceTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XCFitnesse-AcceptanceTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -108,6 +129,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9BAB03BE1D99AD4100A3ADD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57AFA77A4B84B0D343778A3C /* libPods-XCFitnesse-XCFitnesseCucumber.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BAB03C11D99AD4100A3ADD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -122,6 +158,8 @@
 				D655536370474E7343AC9E37 /* Pods-XCFitnesseTests.release.xcconfig */,
 				AE967875740D141F4E73387F /* Pods-XCFitnesse-AcceptanceUnitTests.debug.xcconfig */,
 				0B3EEAB51B5927AE9853179A /* Pods-XCFitnesse-AcceptanceUnitTests.release.xcconfig */,
+				F1B9345D28CBDA96E1F415E4 /* Pods-XCFitnesse-XCFitnesseCucumber.debug.xcconfig */,
+				B48934CE280788F1D99E0D0D /* Pods-XCFitnesse-XCFitnesseCucumber.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -143,6 +181,7 @@
 				9B75D8C01D98323300A72074 /* XCFitnesseTests */,
 				9B75D8D21D98385C00A72074 /* AcceptanceTest */,
 				9B3ED09F1D984B9E00825677 /* AcceptanceUnitTests */,
+				9BAB03C51D99AD4100A3ADD7 /* XCFitnesseCucumber */,
 				9B75D8AA1D98323300A72074 /* Products */,
 				425BD77BDD05A0A84F285BCA /* Pods */,
 				BEF1DA7F56BBBE1BE0F61217 /* Frameworks */,
@@ -156,6 +195,7 @@
 				9B75D8BD1D98323300A72074 /* XCFitnesseTests.xctest */,
 				9B75D8D11D98385C00A72074 /* AcceptanceTest.app */,
 				9B3ED09E1D984B9E00825677 /* AcceptanceUnitTests.xctest */,
+				9BAB03C41D99AD4100A3ADD7 /* XCFitnesseCucumber.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -210,6 +250,19 @@
 			name = Fixtures;
 			sourceTree = "<group>";
 		};
+		9BAB03C51D99AD4100A3ADD7 /* XCFitnesseCucumber */ = {
+			isa = PBXGroup;
+			children = (
+				9BAB03D01D99C10300A3ADD7 /* Features */,
+				9BAB03C61D99AD4100A3ADD7 /* XCFitnesseCucumber.swift */,
+				9BAB03C81D99AD4100A3ADD7 /* XCFitnesseCucumber-Bridging-Header.h */,
+				9BAB03C91D99AD4100A3ADD7 /* XCFitnesseCucumber.h */,
+				9BAB03CA1D99AD4100A3ADD7 /* XCFitnesseCucumber.m */,
+				9BAB03CC1D99AD4100A3ADD7 /* Info.plist */,
+			);
+			path = XCFitnesseCucumber;
+			sourceTree = "<group>";
+		};
 		BEF1DA7F56BBBE1BE0F61217 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -217,6 +270,7 @@
 				FD0DC14ADE5F3872DAB6421C /* libPods-XCFitnesse-AcceptanceTest.a */,
 				298A8133797F171797B636F2 /* libPods-XCFitnesseTests.a */,
 				69DAE6D367CD4BB9994144B5 /* libPods-XCFitnesse-AcceptanceUnitTests.a */,
+				59D85D5C46C4D2EDAB57736F /* libPods-XCFitnesse-XCFitnesseCucumber.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -308,6 +362,29 @@
 			productReference = 9B75D8D11D98385C00A72074 /* AcceptanceTest.app */;
 			productType = "com.apple.product-type.application";
 		};
+		9BAB03C31D99AD4100A3ADD7 /* XCFitnesseCucumber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BAB03CF1D99AD4100A3ADD7 /* Build configuration list for PBXNativeTarget "XCFitnesseCucumber" */;
+			buildPhases = (
+				E4C31BA8AFD6CC34FDCCECC6 /* [CP] Check Pods Manifest.lock */,
+				9BAB03BD1D99AD4100A3ADD7 /* Sources */,
+				9BAB03BE1D99AD4100A3ADD7 /* Frameworks */,
+				9BAB03BF1D99AD4100A3ADD7 /* Resources */,
+				9BAB03C01D99AD4100A3ADD7 /* Sources */,
+				9BAB03C11D99AD4100A3ADD7 /* Frameworks */,
+				9BAB03C21D99AD4100A3ADD7 /* Resources */,
+				B7E7EC9F526F9C7FD601CDFD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BAB03D31D99C15700A3ADD7 /* PBXTargetDependency */,
+			);
+			name = XCFitnesseCucumber;
+			productName = XCFitnesseCucumber;
+			productReference = 9BAB03C41D99AD4100A3ADD7 /* XCFitnesseCucumber.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -336,6 +413,11 @@
 						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
+					9BAB03C31D99AD4100A3ADD7 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9B75D8A81D98323300A72074;
+					};
 				};
 			};
 			buildConfigurationList = 9B75D8A41D98323300A72074 /* Build configuration list for PBXProject "XCFitnesse" */;
@@ -355,6 +437,7 @@
 				9B75D8BC1D98323300A72074 /* XCFitnesseTests */,
 				9B75D8D01D98385C00A72074 /* AcceptanceTest */,
 				9B3ED09D1D984B9E00825677 /* AcceptanceUnitTests */,
+				9BAB03C31D99AD4100A3ADD7 /* XCFitnesseCucumber */,
 			);
 		};
 /* End PBXProject section */
@@ -385,6 +468,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9B75D8CE1D98385C00A72074 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BAB03BF1D99AD4100A3ADD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BAB03D11D99C10300A3ADD7 /* Features in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BAB03C21D99AD4100A3ADD7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -557,6 +655,21 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		B7E7EC9F526F9C7FD601CDFD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XCFitnesse-XCFitnesseCucumber/Pods-XCFitnesse-XCFitnesseCucumber-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		BED866BA164990C570CD842A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -588,6 +701,21 @@
 			showEnvVarsInLog = 0;
 		};
 		D6EFF03738C971145640CDD7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E4C31BA8AFD6CC34FDCCECC6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -640,6 +768,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9BAB03BD1D99AD4100A3ADD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BAB03C71D99AD4100A3ADD7 /* XCFitnesseCucumber.swift in Sources */,
+				9BAB03CB1D99AD4100A3ADD7 /* XCFitnesseCucumber.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BAB03C01D99AD4100A3ADD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -652,6 +796,11 @@
 			isa = PBXTargetDependency;
 			target = 9B75D8A81D98323300A72074 /* XCFitnesse */;
 			targetProxy = 9B75D8BE1D98323300A72074 /* PBXContainerItemProxy */;
+		};
+		9BAB03D31D99C15700A3ADD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B75D8A81D98323300A72074 /* XCFitnesse */;
+			targetProxy = 9BAB03D21D99C15700A3ADD7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -874,6 +1023,45 @@
 			};
 			name = Release;
 		};
+		9BAB03CD1D99AD4100A3ADD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1B9345D28CBDA96E1F415E4 /* Pods-XCFitnesse-XCFitnesseCucumber.debug.xcconfig */;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"SRC_ROOT=@\\\"$(SRCROOT)\\\"",
+				);
+				INFOPLIST_FILE = XCFitnesseCucumber/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Shashikant.XCFitnesseCucumber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SRC_ROOT = "@\\\"$(SRCROOT)\\\"";
+				SWIFT_OBJC_BRIDGING_HEADER = "XCFitnesseCucumber/XCFitnesseCucumber-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = XCFitnesse;
+			};
+			name = Debug;
+		};
+		9BAB03CE1D99AD4100A3ADD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B48934CE280788F1D99E0D0D /* Pods-XCFitnesse-XCFitnesseCucumber.release.xcconfig */;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"SRC_ROOT=@\\\"$(SRCROOT)\\\"",
+				);
+				INFOPLIST_FILE = XCFitnesseCucumber/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Shashikant.XCFitnesseCucumber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "XCFitnesseCucumber/XCFitnesseCucumber-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = XCFitnesse;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -918,6 +1106,15 @@
 			buildConfigurations = (
 				9B75D8DD1D98385C00A72074 /* Debug */,
 				9B75D8DE1D98385C00A72074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BAB03CF1D99AD4100A3ADD7 /* Build configuration list for PBXNativeTarget "XCFitnesseCucumber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BAB03CD1D99AD4100A3ADD7 /* Debug */,
+				9BAB03CE1D99AD4100A3ADD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

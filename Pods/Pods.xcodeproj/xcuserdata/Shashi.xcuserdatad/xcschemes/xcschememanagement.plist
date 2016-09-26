@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Cucumberish-GherkinLanguages.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Cucumberish.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>OCSlimProjectTestBundleSupport.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -15,6 +25,11 @@
 			<false/>
 		</dict>
 		<key>Pods-XCFitnesse-AcceptanceUnitTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-XCFitnesse-XCFitnesseCucumber.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -42,7 +57,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>25F035A1276CF29473D3A4CA209C02D3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>322E01C77ED63E8606FEC5F22B0E3A2F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6573B07827E24A3962B6A8C58663410F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -63,6 +88,11 @@
 			<true/>
 		</dict>
 		<key>DC335AAD92695D7601B118F5139DD234</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E21B7B774BAFBB4793763A4DD2E0B2EE</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -184,7 +184,7 @@ GEM
       mime-types-data (~> 3.2015)
     mime-types-data (3.2016.0521)
     mini_magick (4.5.1)
-    minitest (5.9.0)
+    minitest (5.9.1)
     molinillo (0.4.5)
     multi_json (1.12.1)
     multi_xml (0.5.5)
@@ -251,6 +251,7 @@ GEM
       google-api-client (~> 0.9.1)
     terminal-notifier (1.6.3)
     terminal-table (1.4.5)
+    thor (0.17.0)
     thread_safe (0.3.5)
     trainer (0.3.0)
       fastlane_core (>= 0.50.0, < 1.0.0)
@@ -262,6 +263,8 @@ GEM
       unf_ext
     unf_ext (0.0.7.2)
     word_wrap (1.0.0)
+    xcfit (1.2.0)
+      thor (~> 0.17.0)
     xcode-install (2.0.7)
       claide (>= 0.9.1, < 1.1.0)
       spaceship (>= 0.25.1, < 1.0.0)
@@ -281,6 +284,7 @@ DEPENDENCIES
   cocoapods
   fastlane
   fastlane-plugin-trainer
+  xcfit
 
 BUNDLED WITH
    1.13.1

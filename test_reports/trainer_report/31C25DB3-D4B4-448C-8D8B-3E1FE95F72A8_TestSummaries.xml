@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="4" failures="0">
+    <testsuite name="AcceptanceUnitTests" tests="2" failures="0" time="0.012656986713409424">
+        <testcase classname="OCSPTestSuite" name="OCSlimProjectExamplePage_TestPage" time="0.0015929937362670898">
+        </testcase>
+        <testcase classname="OCSPTestSuite" name="tearDown" time="0.0004780292510986328">
+        </testcase>
+    </testsuite>
+    <testsuite name="XCFitnesseTests" tests="2" failures="0" time="0.33009397983551025">
+        <testcase classname="XCFitnesseTests" name="testExample()" time="0.0015429854393005371">
+        </testcase>
+        <testcase classname="XCFitnesseTests" name="testPerformanceExample()" time="0.31815099716186523">
+        </testcase>
+    </testsuite>
+</testsuites>

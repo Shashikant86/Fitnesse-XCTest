@@ -20,4 +20,8 @@ target 'AcceptanceUnitTests' do
     pod 'OCSlimProjectTestBundleSupport'
 end
 
+target 'XCFitnesseCucumber' do
+    pod 'Cucumberish', :git => 'https://github.com/Ahmed-Ali/Cucumberish'
+end
+
 end
